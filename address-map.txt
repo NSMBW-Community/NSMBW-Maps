@@ -562,7 +562,7 @@ extend P2
 # Removed symbol: DAT_P1_80317738
 80317750-8032080f: +0xc528
 # New symbol: "@46785"
-# New symbol: "@46786_001"
+# New symbol: "@46786"
 80320810-8032164f: +0xc570
 80321650-80321f07: +0xc578
 80321f08-80321f17: +0xc57c
@@ -586,10 +586,10 @@ extend P2
 80322354-803223c7: +0xc8fc
 803223c8-803223e7: +0xc968
 803223e8-80322447: +0xc988
-# New symbol: "@46208_001"
-# New symbol: "@46209_001"
-# New symbol: "@46210_002"
-# New symbol: "@46211_001"
+# New symbol: "@46208"
+# New symbol: "@46209"
+# New symbol: "@46210"
+# New symbol: "@46211"
 80322448-803224d7: +0xcab8
 803224d8-803224e3: +0xcad0
 803224f0-80322ff7: +0xcac8
@@ -632,7 +632,7 @@ extend P2
 80429560-80429563: +0xc9cc
 # Removed symbol: DAT_P1_80429564
 80429570-8042d537: +0xc9c0
-# New symbol: "@46535_001"
+# New symbol: "@46535"
 8042d538-8042d547: +0xc9c8
 # New symbol: "@49497"
 8042d548-8042d54b: +0xc9cc
@@ -1984,8 +1984,8 @@ extend W
 8032acf8-8032be3b: -0x6020
 # New pointers to new strings "@46702" and "@46703" (above) in the profile names table
 8032be3c-8032c047: -0x6018
-# New symbol: "@71559_001"
-# New symbol: "@71560_001"
+# New symbol: "@71559"
+# New symbol: "@71560"
 8032c048-8032c827: -0x5fe0
 # New symbol: hashname_545aa92b_545aa92b
 8032c828-8032de67: -0x5fc0
@@ -1993,16 +1993,16 @@ extend W
 # Removed symbol: DAT_P1_803230a0
 8032de8c-8032dea3: -0x5fe4
 8032dea4-8032df07: -0x5fe0
-# New symbol: "@66378_002"
-# New symbol: "@66379_001"
+# New symbol: "@66378"
+# New symbol: "@66379"
 # New symbol: "dNvScreen_c virtual table"
-# New symbol: "@66378_003"
-# New symbol: "@66379_002"
+# New symbol: "@66378"
+# New symbol: "@66379"
 # New symbol: "dAntiAddictionScreen_c virtual table"
-8032df08-80333177: -0x5ee0  # (gap) .. hashname_ea28d5ba_ea28d5ba_bootOtherPhaseFuncs
-80333178-8033317f: -0x5ed8  # ...
+8032df08-80333178: -0x5ee0  # (gap) .. hashname_ea28d5ba_ea28d5ba_bootOtherPhaseFuncs
+80333179-8033317f: -0x5ed8  # ...
 80333180-80333247: -0x5ed0  # (prev) .. (gap)
-# New symbol: "@77990_001"
+# New symbol: "@77990"
 # New symbol: "@77991"
 80333248-80333433: -0x5ea8
 # New symbols: "@78310" through "@78336"
@@ -2072,7 +2072,7 @@ extend W
 # New symbol: dScBoot_c::StateID_AntiAddictionScreenFadeOut
 # New symbol: "@75096"
 # New symbol: dScBoot_c::StateID_NvScreenFadeIn
-# New symbol: "@75100_001"
+# New symbol: "@75100"
 # New symbol: dScBoot_c::StateID_NvScreenKeyWait
 # New symbol: "@75104"
 # New symbol: dScBoot_c::StateID_NvScreenDispEndWait
@@ -2083,7 +2083,7 @@ extend W
 803825b8-80433cd7: -0x5880  # (gap) .. ==== BEGIN main.sdata ==== .. (gap)
 # New symbol: "@46215"
 80433cd8-804340d7: -0x5878
-# New symbol: "@71558_001"
+# New symbol: "@71558"
 804340d8-80434327: -0x5870
 # New symbol: g_profile_NV_SCREEN
 # New symbol: g_profile_ANTI_ADDICTION_SCREEN
@@ -2122,17 +2122,17 @@ extend W
 # New symbol: "@78406"
 # New symbol: "@78409"
 80438ca0-8043a18f: -0x57f8
-# New symbol: "@7602_001"
+# New symbol: "@7602"
 8043a190-8043a2cf: -0x57f0
 8043a2e0-8043a3b7: -0x5800
 # Moved symbol: "@23707"
 8043a3b8-8043a3df: -0x57fc
 8043a3e0-8043a3e3: -0x5828  # New location of "@23707" (above)
 8043a3e4-8043a727: -0x5800
-# New symbol: "@1506_002"
-# New symbol: "@1507_002"
-# New symbol: "@1508_003"
-# New symbol: "@1509_001"
+# New symbol: "@1506"
+# New symbol: "@1507"
+# New symbol: "@1508"
+# New symbol: "@1509"
 # New symbol: "@1513"
 # New symbol: "@1514"
 8043a728-8043a747: -0x57d0
