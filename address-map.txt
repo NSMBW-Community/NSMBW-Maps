@@ -1305,10 +1305,8 @@ extend K
 
 [C]
 # Nvidia Shield TV NSMBW for Mainland China (SMNC01)
-# PLEASE NOTE: This mapping is using the REL load addresses obtained from a port to Dolphin Emulator,
-# since there's currently no way to obtain a memory dump from the original environment (Lingcod).
-# The REL addresses should be double-checked once that's possible, and adjusted if/as necessary.
-# (Maybe add a separate, derived version target for "C running outside of Lingcod", in that case.)
+# Note: the REL addresses have been verified to be the same when running in Lingcod vs. when running
+# the extracted ROM in Dolphin or on hardware.
 extend W
 # ==== BEGIN main.text ====
 80000000-800836ff: +0x0    # (start) .. dBgUnit_c::create(dBgUnit_c*, EGG::Heap*, int, int)
