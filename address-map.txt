@@ -417,7 +417,7 @@ extend P2
 # New symbol: daPyMng_c::onStopTimerInfo(signed char)
 # New symbol: daPyMng_c::offStopTimerInfo(signed char)
 # New symbol: daPyMng_c::updateTimerStopInfo()
-8005f880-8009624f: +0x140  # (gap) .. hashname_1e05fa36_61699aa1_getDirectionOfInterestMaybe
+8005f880-8009624f: +0x140  # (gap) .. dEn_c::getPl_LRflag(const mVec3_c&)
 80096250-80096253: +0x150  # ...
 80096254-8009625b: +0x13c  # ...
 8009625c-8009626f: +0x148  # ...
@@ -438,7 +438,7 @@ extend P2
 800e4da0-800e4ebf: -0x4    # ...
 800e4ec0-800f794f: +0x0    # (prev) .. dWmEnemy_c::execute()
 800f7950-800f79bf: +0xc    # ...
-800f79c0-800fd5eb: +0x10   # (prev) .. hashname_03a0fb82_c35595ff
+800f79c0-800fd5eb: +0x10   # (prev) .. dWmLib::isCourseComplete(int, int)
 800fd5ec-800fd60b: +0x44   # ...
 800fd610-801011bf: +0x40   # (prev) .. (gap)
 # New symbol: daWmPlayer_c::isAllPlayerStarMode()
@@ -1329,7 +1329,7 @@ extend W
 8008f3c0-8008f3ef: +0x3c   # ...
 8008f3f0-8008f417: +0x40   # (prev) .. dDvd::loader_c::remove()
 8008f418-8008f447: +0x58   # ...
-8008f450-8008f477: +0x50   # (prev) .. hashname_e3243e49_89487c83
+8008f450-8008f477: +0x50   # (prev) .. dDvd::loader_c::freeResouce() [sic]
 8008f478-8008f4b7: +0x68   # ...
 8008f4c0-800b47a0: +0x60   # (prev) .. dGameCom::GetLanguageHBM()
 800b47a8-800b47af: +0x5c   # ...
@@ -1560,12 +1560,12 @@ extend W
 8010f900-80159430: +0xe50  # (gap) .. dGameDisplay_c::initializeState_ProcGoalSettleUp()
 80159431-80159437: +0xe58  # ...
 80159438-80159477: +0xe5c  # ...
-80159480-8015c1d7: +0xed0  # (prev) .. hashname_efec0ced_90a7bbb2_LogoScreen
+80159480-8015c1d7: +0xed0  # (prev) .. LogoScreen::myCreate(void*)
 8015c1e4-8015c1ef: +0xee0  # (prev) .. (gap)
 # New symbol: hashname_5013987a_4a9a0da5
-# New symbol: hashname_77b51723_c578197c_AntiAddictionScreen
+# New symbol: AntiAddictionScreen::myCreate(void*)
 # New symbol: hashname_d4f96047_4f26a498
-# New symbol: hashname_b18f3e3e_5c00b4e1_NvScreen
+# New symbol: NvScreen::myCreate(void*)
 8015c1f0-8015cb70: +0xfd0  # (gap) .. dScBoot_c::initializeState_ResetWait()
 8015cb81-8015cb83: +0xfc0  # ...
 8015cb88-8015cb8b: +0xfbc  # ...
@@ -1932,7 +1932,7 @@ extend W
 802c412c-802c412f: +0x2204  # ...
 802c4130-802c41db: +0x2208  # ...
 802c41dc-802c41eb: +0x2214  # ...
-802c41f0-802c442f: +0x2210  # (prev) .. hashname_030e5eac_dbecf086
+802c41f0-802c442f: +0x2210  # (prev) .. EGG::DrawPathDOF::internalDrawStandard(unsigned short)
 802c4430-802c4433: +0x221c  # ...
 802c4434-802c4437: +0x2214  # ...
 802c4458-802c445f: +0x21e8  # ...
@@ -1997,7 +1997,7 @@ extend W
 # New symbol: "@66378"
 # New symbol: "@66379"
 # New symbol: "dAntiAddictionScreen_c virtual table"
-8032df08-80333178: -0x5ee0  # (gap) .. hashname_ea28d5ba_ea28d5ba_bootOtherPhaseFuncs
+8032df08-80333178: -0x5ee0  # (gap) .. myCreate_PhaseMethod
 80333179-8033317f: -0x5ed8  # ...
 80333180-80333247: -0x5ed0  # (prev) .. (gap)
 # New symbol: "@77990"
@@ -2094,8 +2094,8 @@ extend W
 80434c5c-80434c5f: -0x5854
 # ==== BEGIN main.sbss ====
 80434c60-8043513f: -0x5840
-# New symbol: hashname_139d42ca_b1d64f2a
-# New symbol: hashname_e0b95ea2_c9577702
+# New symbol: dSys_c::beginFrame()::lastTime
+# New symbol: guard variable for dSys_c::beginFrame()::lastTime
 80435140-8043525f: -0x5830
 # New symbol: hashname_cb595fb7_0b67e58c
 80435260-804353e3: -0x5828
