@@ -1960,9 +1960,9 @@ extend W
 # New symbol: nan
 802e8ea0-802f5047: +0x4460  # (gap) .. ==== BEGIN main.rodata ====
 # New symbol: hashname_cae861c2_0b67e58c
-802f5048-802f609b: +0x44f0
+802f5048-802f6097: +0x44f0
 # Removed symbol: DAT_K_802f60a0 (embedded BRFNT file)
-8030064c-803085e7: -0x60c0
+80300648-803085e7: -0x60c0
 # New symbol: "@589"
 803085e8-80308f8f: -0x60b0  # ==== BEGIN main.data ====
 80308fa0-80323cfb: -0x60c0
